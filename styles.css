@@ -1,0 +1,379 @@
+/* Reset general */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box; /* Se añade correctamente */
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para centrar todas las imágenes */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+header {
+    background-color: #001973;
+
+    height: 100vh;
+    background-image: url(IMG/loguinPersona.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    background-blend-mode: multiply;
+}
+
+.icon {
+    width: 5%S;
+}
+/* Estilo para centrar todos los textos */
+body, p, h1, h2, h3, h4, h5, h6, header, nav, .footer, .producto h2, .producto-descripcion, .producto-precio, form label, form legend, .enviar, th, td, .copyright {
+    text-align: center;
+}
+body,
+p,
+h1, h2, h3, h4, h5, h6,
+header,
+nav,
+.footer,
+.producto h2,
+.producto-descripcion,
+.producto-precio,
+form label,
+form legend,
+.enviar,
+th, td,
+.copyright {
+    text-align: center;
+}
+
+/* Estilo para texto elegante */
+.texto-elegante {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin: 20px; /* Espaciado adicional para un diseño más limpio */
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #001f8d;
+}
+
+strong {
+    color: #001f8d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #001f8d;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: #001973;
+    color: #fff;
+}
+
+nav {
+    padding: 10px;
+    background-color: #001973;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #001973;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.producto {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Barra de navegación */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Sección Principal */
+.principal {
+    margin-bottom: 40px;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.producto {
+    width: calc(33.33% - 30px);
+    margin: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.producto h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.producto-descripcion {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #555;
+}
+
+.producto-precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c78c19;
+    margin-top: 10px;
+}
+
+/* Formulario */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    margin-top: 20px;
+    border: none;
+}
+
+.input-padron {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+.enviar {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c78c19;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.enviar:hover {
+    background-color: #955f0d;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+}
+
+/* Pie de página */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 14px;
+    margin: 10px 0;
+}
